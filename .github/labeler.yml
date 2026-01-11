@@ -1,0 +1,34 @@
+# Labeler configuration
+# https://github.com/actions/labeler
+
+documentation:
+  - '**/*.md'
+  - 'docs/**/*'
+
+dependencies:
+  - 'package.json'
+  - 'package-lock.json'
+
+typescript:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - 'tsconfig.json'
+
+powershell:
+  - '**/*.ps1'
+  - '**/*.psm1'
+
+workflows:
+  - '.github/workflows/**'
+
+tests:
+  - 'tests/**'
+  - '**/*.test.ts'
+  - '**/*.spec.ts'
+
+scripts:
+  - 'scripts/**'
+
+commands:
+  - 'src/commands/**'
+  - 'commands/**'

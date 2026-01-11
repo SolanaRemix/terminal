@@ -1,4 +1,21 @@
-name: "Terminal Mobile"
+name: "Terminal Agent"
 version: "1.0.0"
-description: "Terminal Mobile GitHub App integration"
+description: "CyberAi Terminal automation agent for repository management"
 entrypoint: "npm start"
+
+commands:
+  - /terminal help
+  - /terminal status
+  - /terminal scan
+  - /terminal merge
+  - /terminal tag
+  - /terminal audit
+  - /terminal fix
+  - /terminal deploy
+  - /terminal CyberAi
+  - /terminal SmartContractAudit
+  - /terminal SmartBrain
+  - /terminal GitAntivirus
+  - /terminal NodeAudit
+  - /terminal ConflictsResolver
+
