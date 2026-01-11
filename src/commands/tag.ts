@@ -1,4 +1,4 @@
-﻿import { Octokit } from "@octokit/core";
+import { Octokit } from "@octokit/core";
 import { CommandContext } from "./index";
 
 export async function handleTag(ctx: CommandContext, args: string[]) {
@@ -11,7 +11,7 @@ export async function handleTag(ctx: CommandContext, args: string[]) {
       owner,
       repo,
       issue_number: ctx.issueNumber,
-      body: "âš ï¸ Usage: \/terminal tag v0.1-dashboard\"
+      body: "⚠️ Usage: `/terminal tag v0.1-dashboard`"
     });
   }
 
@@ -23,7 +23,7 @@ export async function handleTag(ctx: CommandContext, args: string[]) {
   await octokit.request("POST /repos/{owner}/{repo}/git/refs", {
     owner,
     repo,
-    ref: \efs/tags/\\,
+    ref: `refs/tags/${tagName}`,
     sha: latestCommit.data.sha
   });
 
@@ -31,6 +31,6 @@ export async function handleTag(ctx: CommandContext, args: string[]) {
     owner,
     repo,
     issue_number: ctx.issueNumber,
-    body: \ðŸ·ï¸ Tag created: \\\\\\\ on main\
+    body: `🏷️ Tag created: \`${tagName}\` on main`
   });
 }

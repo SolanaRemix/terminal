@@ -13,7 +13,7 @@ webhooks.on("issue_comment.created", async ({ payload }) => {
 
   if (!body.trim().startsWith("/terminal")) return;
 
-  console.log(\[terminal] \#\: \\);
+  console.log(`[terminal] ${repo}#${issueNumber}: ${body}`);
   await handleCommand({ body, repo, issueNumber });
 });
 
@@ -51,5 +51,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log(\Server running on port \\);
+  console.log(`Server running on port ${port}`);
 });
