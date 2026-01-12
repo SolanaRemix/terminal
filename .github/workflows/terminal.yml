@@ -1,4 +1,4 @@
-﻿name: Terminal Engine
+name: Terminal Engine
 
 on:
   issue_comment:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Fake scan
         run: |
           echo 'Running fake scan...'
