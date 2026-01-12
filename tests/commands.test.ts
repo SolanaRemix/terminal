@@ -2,7 +2,7 @@
  * Test suite for Terminal commands
  */
 
-import { describe, it, expect, beforeEach, jest } from "@jest/globals";
+import { describe, it, beforeEach, jest } from "@jest/globals";
 import { handleHelp } from "../src/commands/help";
 import { handleStatus } from "../src/commands/status";
 import { handleScan } from "../src/commands/scan";
