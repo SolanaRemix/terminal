@@ -1,24 +1,26 @@
 import { Octokit } from "@octokit/core";
 import { CommandContext } from "./index";
 
-export async function handleStatus(ctx: CommandContext) {
+export async function handleFix(ctx: CommandContext) {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
   const [owner, repo] = ctx.repo.split("/");
-
-  const pr = await octokit.request(
-    "GET /repos/{owner}/{repo}/pulls/{pull_number}",
-    { owner, repo, pull_number: ctx.issueNumber }
-  );
 
   await octokit.request("POST /repos/{owner}/{repo}/issues/{issue_number}/comments", {
     owner,
     repo,
     issue_number: ctx.issueNumber,
     body: [
-      "### 📡 `/terminal status`",
+      "### 🔧 `/terminal fix`",
       "",
-      `- State: ${pr.data.state}`,
-      `- Merged: ${pr.data.merged}`,
+      "Applying automated fixes...",
+      "",
+      "**Fix Types:**",
+      "- Code style corrections",
+      "- Linting issues",
+      "- Security patches (if available)",
+      "- Dependency updates",
+      "",
+      "Note: This is a preview. Full automation coming in v1.0.",
       ""
     ].join("\n")
   });

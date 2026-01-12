@@ -1,7 +1,7 @@
 import { Octokit } from "@octokit/core";
 import { CommandContext } from "./index";
 
-export async function handleScan(ctx: CommandContext) {
+export async function handleCyberAi(ctx: CommandContext) {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
   const [owner, repo] = ctx.repo.split("/");
 
@@ -10,17 +10,17 @@ export async function handleScan(ctx: CommandContext) {
     repo,
     issue_number: ctx.issueNumber,
     body: [
-      "### 🧪 `/terminal scan`",
+      "### 🤖 `/terminal CyberAi`",
       "",
-      "Running comprehensive repository scan...",
+      "CyberAi Enterprise Automation Platform",
       "",
-      "**Scan Components:**",
-      "- ✅ Code quality analysis",
-      "- ✅ Security vulnerability detection",
-      "- ✅ Dependency audit",
-      "- ✅ Configuration validation",
+      "**Available Features:**",
+      "- Multi-repository orchestration",
+      "- Advanced security scanning",
+      "- Automated compliance checks",
+      "- Enterprise workflow management",
       "",
-      "Scan complete. Check workflow runs for detailed results.",
+      "For more information, visit the CyberAi documentation.",
       ""
     ].join("\n")
   });

@@ -1,7 +1,7 @@
 import { Octokit } from "@octokit/core";
 import { CommandContext } from "./index";
 
-export async function handleScan(ctx: CommandContext) {
+export async function handleAudit(ctx: CommandContext) {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
   const [owner, repo] = ctx.repo.split("/");
 
@@ -10,17 +10,17 @@ export async function handleScan(ctx: CommandContext) {
     repo,
     issue_number: ctx.issueNumber,
     body: [
-      "### 🧪 `/terminal scan`",
+      "### 🔍 `/terminal audit`",
       "",
-      "Running comprehensive repository scan...",
+      "Running comprehensive security and code audit...",
       "",
-      "**Scan Components:**",
+      "**Audit Components:**",
       "- ✅ Code quality analysis",
-      "- ✅ Security vulnerability detection",
+      "- ✅ Security vulnerability scan",
       "- ✅ Dependency audit",
-      "- ✅ Configuration validation",
+      "- ✅ Best practices check",
       "",
-      "Scan complete. Check workflow runs for detailed results.",
+      "Audit complete. Check workflow runs for detailed results.",
       ""
     ].join("\n")
   });
