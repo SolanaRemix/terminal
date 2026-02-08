@@ -7,6 +7,17 @@ layout: default
 
 Welcome to the CyberAi Terminal documentation. Terminal is the automation entrypoint for the CyberAi ecosystem, providing operator-grade infrastructure for repository management through terminal-style commands in GitHub PRs.
 
+## 📖 What is Terminal?
+
+Terminal is a GitHub App that brings terminal-style command execution directly to your pull requests. Execute powerful automation commands, run security scans, manage deployments, and leverage AI-powered features—all from PR comments.
+
+**Key Benefits:**
+- 🚀 **No Context Switching** - Work directly in GitHub
+- ⚡ **Instant Execution** - Commands run immediately
+- 🤖 **AI-Powered** - SmartBrain integration for intelligent automation
+- 🔒 **Security First** - Built-in security scanning and best practices
+- 🛠️ **Extensible** - Part of the larger CyberAi ecosystem
+
 ## 🚀 Quick Start
 
 Control your repository from anywhere using terminal-style commands inside GitHub pull request comments.
@@ -223,13 +234,61 @@ Terminal is part of the broader CyberAi ecosystem:
 - **Terminal** - Command-line automation interface
 - **Control Plane** - Central management and orchestration
 
+## 🎯 Automation Features
+
+Terminal provides powerful automation capabilities:
+
+### Auto Sync
+Automatically synchronize branches, forks, and dependencies:
+- Keep feature branches updated with main
+- Monitor and apply dependency updates
+- Multi-branch coordination
+- Real-time synchronization monitoring
+
+[Learn more about Auto Sync →](auto-sync.md)
+
+### Auto Test
+Intelligent automated testing and validation:
+- Automated test execution on every change
+- AI-powered test generation
+- Coverage analysis and tracking
+- Smart test selection for faster CI/CD
+
+[Learn more about Auto Test →](auto-test.md)
+
+### Auto Analysis
+Comprehensive code analysis and insights:
+- Multi-dimensional code inspection
+- AI-powered insights and recommendations
+- Continuous monitoring and trend analysis
+- Quality gates and enforcement
+
+[Learn more about Auto Analysis →](auto-analysis.md)
+
+### Auto Fix
+Automated issue remediation:
+- Intelligent fix application with AI
+- Security vulnerability patches
+- Performance optimizations
+- Safe application with automatic rollback
+
+[Learn more about Auto Fix →](auto-fix.md)
+
 ## 📚 Additional Resources
 
-- [API Documentation](api.md)
-- [Branding Guidelines](branding.md)
-- [Marketplace Listing](marketplace.md)
-- [Organization Structure](org-structure.md)
-- [SmartBrain Integration](smartbrain.md)
+### Documentation
+- [Command Reference](command-reference.md) - Complete command guide
+- [Configuration Guide](configuration.md) - Setup and configuration
+- [Architecture](architecture.md) - System architecture deep-dive
+- [Development Guide](development.md) - Contributing and development
+- [Troubleshooting](troubleshooting.md) - Common issues and solutions
+- [FAQ](faq.md) - Frequently asked questions
+
+### CyberAi Ecosystem
+- [SmartBrain Integration](smartbrain.md) - AI/ML engine details
+- [Organization Structure](org-structure.md) - Team and organization
+- [Branding Guidelines](branding.md) - Brand identity and usage
+- [Marketplace Listing](marketplace.md) - GitHub Marketplace info
 
 ## 🤝 Contributing
 
@@ -245,6 +304,31 @@ For support:
 1. Check this documentation
 2. Search [existing issues](https://github.com/SolanaRemix/terminal/issues)
 3. Open a new issue if needed
+
+## 🗺️ Documentation Navigation
+
+### Getting Started
+- **[Quick Start](#-quick-start)** - Get up and running in minutes
+- **[Installation](#-installation)** - Detailed setup guide
+- **[Configuration](configuration.md)** - Configure Terminal for your needs
+
+### Features & Commands
+- **[Commands](command-reference.md)** - Complete command reference
+- **[Auto Sync](auto-sync.md)** - Automatic synchronization
+- **[Auto Test](auto-test.md)** - Automated testing
+- **[Auto Analysis](auto-analysis.md)** - Code analysis
+- **[Auto Fix](auto-fix.md)** - Automated fixes
+
+### Advanced Topics
+- **[Architecture](architecture.md)** - System architecture
+- **[Development](development.md)** - Contributing guide
+- **[SmartBrain](smartbrain.md)** - AI/ML integration
+- **[Security](../SECURITY.md)** - Security policy
+
+### Help & Support
+- **[Troubleshooting](troubleshooting.md)** - Common issues
+- **[FAQ](faq.md)** - Frequently asked questions
+- **[Community](https://github.com/SolanaRemix/terminal/discussions)** - Join discussions
 
 ---
 
