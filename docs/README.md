@@ -13,7 +13,6 @@ Welcome to the comprehensive documentation for CyberAi Terminal - the automation
 ### Core Documentation
 - [Command Reference](command-reference.md) - Complete guide to all available commands
 - [Architecture](architecture.md) - System architecture and design patterns
-- [API Reference](api-reference.md) - Programmatic API documentation
 - [Development Guide](development.md) - Contributing and development workflow
 
 ### Features
@@ -52,7 +51,6 @@ docs/
 ├── README.md              # This file - Documentation hub
 ├── index.md               # Main documentation entry point
 ├── command-reference.md   # Detailed command documentation
-├── api-reference.md       # API documentation
 ├── architecture.md        # Architecture deep-dive
 ├── configuration.md       # Configuration guide
 ├── development.md         # Developer guide
