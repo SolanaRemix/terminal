@@ -62,19 +62,16 @@ SmartBrain orchestrates multiple specialized agents:
 
 ## Terminal Integration
 
-### SmartBrain Command
+### SmartBrain Command (Current)
 
-Execute SmartBrain analysis in any PR:
+Execute basic SmartBrain analysis in any PR:
 
 ```bash
+# Currently available
 /terminal SmartBrain
 ```
 
-This triggers:
-1. Full repository analysis
-2. Multi-agent orchestration
-3. Intelligent recommendations
-4. Automated actions (if configured)
+This currently triggers a basic informational response. Advanced features like multi-agent orchestration and intelligent recommendations are planned for future releases.
 
 ### Analysis Output
 
@@ -152,47 +149,55 @@ SmartBrain provides structured analysis:
 
 **Timeline**: Q4 2024
 
-## Using SmartBrain Features
+## Using SmartBrain Features (Planned)
 
-### AI Code Review
+### AI Code Review (Planned for v0.2)
 
-Request comprehensive AI-powered code review:
+Planned comprehensive AI-powered code review:
 
 ```bash
+# Planned command - not yet available
 /terminal review
 ```
 
-**What it does:**
-- Analyzes all changed files
-- Checks for common issues
-- Suggests improvements
-- Validates best practices
+**What it will do (planned):**
+- Analyze all changed files
+- Check for common issues
+- Suggest improvements
+- Validate best practices
 - Security review
 
 ### Automated Fixes
 
-Apply AI-recommended fixes:
+Apply fixes (basic version currently available):
 
 ```bash
+# Currently available - basic fixes
 /terminal fix
 ```
 
-**What it fixes:**
+**What it currently fixes:**
 - Code style issues
 - Common bugs
-- Security vulnerabilities
+- Security vulnerabilities (when available)
 - Performance issues
 - Best practice violations
 
-### Intelligent Suggestions
+### Intelligent Suggestions (Planned)
 
-Get contextual improvement suggestions:
+Get contextual improvement suggestions (planned feature):
 
 ```bash
+# Planned command - not yet available
 /terminal suggest
 ```
 
-**Suggestion types:**
+```bash
+# Planned command - not yet available
+/terminal suggest
+```
+
+**Suggestion types (planned):**
 - Architecture improvements
 - Performance optimizations
 - Security enhancements
@@ -433,40 +438,45 @@ The following troubleshooting commands are planned for future releases:
 - Limit scope: Analyze specific files only
 - Check API rate limits: May need to upgrade tier
 
-## Examples
+## Examples (Planned Features)
 
-### Example 1: Full PR Review
+The following examples show planned functionality for future SmartBrain releases:
+
+### Example 1: Full PR Review (Planned)
 
 ```bash
+# Planned command with flags - not yet available
 /terminal SmartBrain --mode review --depth thorough
 ```
 
-**Output:**
+**Planned output:**
 - Security analysis
 - Code quality review
 - Performance suggestions
 - Test coverage analysis
 - Documentation review
 
-### Example 2: Security-Focused Analysis
+### Example 2: Security-Focused Analysis (Planned)
 
 ```bash
+# Planned command with flags - not yet available
 /terminal SmartBrain --focus security --auto-fix
 ```
 
-**Output:**
+**Planned output:**
 - Vulnerability detection
 - Security best practices check
 - Automated security patches
 - Risk assessment
 
-### Example 3: Performance Optimization
+### Example 3: Performance Optimization (Planned)
 
 ```bash
+# Planned command with flags - not yet available
 /terminal SmartBrain --focus performance --suggest
 ```
 
-**Output:**
+**Planned output:**
 - Bottleneck identification
 - Optimization suggestions
 - Resource usage analysis
