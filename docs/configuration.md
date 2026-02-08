@@ -1944,7 +1944,7 @@ npm run dev -- --verbose
 ## Support
 
 For configuration help:
-- [Documentation](https://solanaremix.github.io/terminal/)
+- [Documentation](https://cyberai.network)
 - [GitHub Issues](https://github.com/SolanaRemix/terminal/issues)
 - Email: support@cyberai.dev
 

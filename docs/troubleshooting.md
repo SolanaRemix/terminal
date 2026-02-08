@@ -1507,7 +1507,7 @@ Screenshots, webhook deliveries, etc.
 - Ideas: https://github.com/SolanaRemix/terminal/discussions
 
 **Documentation:**
-- Main Docs: https://solanaremix.github.io/terminal/
+- Main Docs: https://cyberai.network
 - Configuration Guide: docs/configuration.md
 - Architecture: docs/architecture.md
 - Development: docs/development.md

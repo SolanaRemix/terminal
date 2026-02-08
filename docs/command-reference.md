@@ -623,7 +623,7 @@ Common command workflows:
 
 For command-specific help:
 - Use `--help` flag with any command
-- Check [documentation](https://solanaremix.github.io/terminal/)
+- Check [documentation](https://cyberai.network)
 - Open an [issue](https://github.com/SolanaRemix/terminal/issues)
 - Contact support: support@cyberai.dev
 

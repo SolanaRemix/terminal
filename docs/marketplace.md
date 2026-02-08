@@ -207,4 +207,4 @@ A: Yes, self-hosting is available for Enterprise customers.
 
 **Built with ❤️ by the CyberAi team**
 
-[Install Now](https://github.com/marketplace) | [Documentation](https://solanaremix.github.io/terminal/) | [GitHub](https://github.com/SolanaRemix/terminal)
+[Install Now](https://github.com/marketplace) | [Documentation](https://cyberai.network) | [GitHub](https://github.com/SolanaRemix/terminal)
