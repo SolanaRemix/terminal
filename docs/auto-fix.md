@@ -1,10 +1,20 @@
 # Auto Fix – Automated Issue Remediation
 
+> **⚠️ NOTE**: The `/terminal fix` command provides basic automated fixes. The advanced `autofix` commands with full AI-powered remediation described in this document are planned for future releases.
+
 ## Overview
 
-Auto Fix is Terminal's intelligent automated remediation feature that identifies and fixes issues in your codebase. Powered by SmartBrain AI, Auto Fix can automatically resolve code quality issues, security vulnerabilities, performance problems, and apply best practices while maintaining code integrity.
+Terminal currently provides basic automated fixes via `/terminal fix`. The full Auto Fix feature with advanced AI-powered remediation is planned for future releases. When complete, it will identify and fix issues in your codebase automatically, resolving code quality issues, security vulnerabilities, performance problems, and applying best practices while maintaining code integrity.
 
-## Key Features
+## Current Functionality
+
+The current `/terminal fix` command provides:
+- Basic code style corrections
+- Simple linting fixes
+- Security patches (when available)
+- Dependency updates
+
+## Planned Features (Advanced Auto Fix)
 
 ### 🔧 Intelligent Fixes
 AI-powered automated remediation:
@@ -39,11 +49,22 @@ Optimized for developer workflow:
 
 ## Usage
 
-### Apply All Fixes
+### Current Command (Basic Fixes)
 
-Fix all detected issues automatically:
+Apply basic automated fixes:
 
 ```bash
+# Currently available - basic fixes
+/terminal fix
+```
+
+### Planned Commands (Advanced Auto Fix)
+
+Advanced remediation commands (not yet available):
+
+```bash
+# Planned commands - not yet available
+
 # Apply all safe fixes
 /terminal autofix apply
 
@@ -54,11 +75,13 @@ Fix all detected issues automatically:
 /terminal autofix apply --dry-run
 ```
 
-### Apply Specific Fixes
+### Apply Specific Fixes (Planned)
 
-Target specific types of issues:
+Target specific types of issues (planned):
 
 ```bash
+# Planned commands - not yet available
+
 # Fix code style issues only
 /terminal autofix apply --type style
 

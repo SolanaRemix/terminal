@@ -234,9 +234,8 @@ Organizations supporting CyberAi development through:
 CyberAi operates as an open source project under the SolanaRemix organization on GitHub.
 
 ### Licensing
-- **Code**: MIT License (permissive open source)
-- **Documentation**: CC BY 4.0
-- **Trademarks**: Protected brand assets
+- **Code**: Apache License 2.0 (see [LICENSE](../LICENSE))
+- **Documentation**: Apache License 2.0 (see [LICENSE](../LICENSE))
 
 ### Privacy
 - Minimal data collection

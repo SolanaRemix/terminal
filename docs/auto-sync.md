@@ -1,10 +1,12 @@
 # Auto Sync – Automatic Repository Synchronization
 
+> **⚠️ PLANNED FEATURE**: Auto Sync is a planned feature for future releases. The commands and functionality described in this document are not yet available in the current version of Terminal. This documentation serves as a design specification and roadmap.
+
 ## Overview
 
-Auto Sync is Terminal's intelligent repository synchronization feature that automatically keeps your branches, forks, and dependencies up-to-date. It eliminates manual synchronization tasks and ensures your development environment stays current with minimal effort.
+Auto Sync is Terminal's planned intelligent repository synchronization feature that will automatically keep your branches, forks, and dependencies up-to-date. It will eliminate manual synchronization tasks and ensure your development environment stays current with minimal effort.
 
-## Key Features
+## Key Features (Planned)
 
 ### 🔄 Branch Synchronization
 Automatically sync branches with their upstream sources:
@@ -34,21 +36,23 @@ Continuous synchronization monitoring:
 - Track sync history and metrics
 - Performance dashboards
 
-## Usage
+## Usage (Planned)
 
 ### Enable Auto Sync
 
-Activate Auto Sync in a pull request:
+When available, activate Auto Sync in a pull request:
 
 ```bash
+# Planned command - not yet available
 /terminal autosync enable
 ```
 
 ### Check Sync Status
 
-View current synchronization status:
+View current synchronization status (planned):
 
 ```bash
+# Planned command - not yet available
 /terminal autosync status
 ```
 
@@ -85,13 +89,14 @@ Turn off auto synchronization:
 /terminal autosync disable
 ```
 
-## Configuration
+## Configuration (Planned)
 
-### Repository Configuration
+### Repository Configuration (Future)
 
-Configure Auto Sync in `.terminal.yml`:
+The following configuration format is planned for future releases via a `.terminal.yml` file:
 
 ```yaml
+# Planned configuration format - not yet implemented
 autosync:
   enabled: true
   

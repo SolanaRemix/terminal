@@ -442,13 +442,14 @@ Intelligently resolves merge conflicts using:
 /terminal ConflictsResolver --strategy auto
 ```
 
-## Auto Commands
+## Auto Commands (Planned)
 
-These commands are part of the automation suite.
+These commands are part of the planned automation suite for future releases.
 
-### Auto Sync Commands
+### Auto Sync Commands (Planned)
 
 ```bash
+# Planned commands - not yet available
 /terminal autosync enable          # Enable auto synchronization
 /terminal autosync disable         # Disable auto synchronization
 /terminal autosync status          # Check sync status
@@ -456,9 +457,10 @@ These commands are part of the automation suite.
 /terminal autosync configure       # Configure sync settings
 ```
 
-### Auto Test Commands
+### Auto Test Commands (Planned)
 
 ```bash
+# Planned commands - not yet available
 /terminal autotest enable          # Enable auto testing
 /terminal autotest disable         # Disable auto testing
 /terminal autotest run            # Run tests
@@ -467,9 +469,10 @@ These commands are part of the automation suite.
 /terminal autotest generate       # Generate tests with AI
 ```
 
-### Auto Analysis Commands
+### Auto Analysis Commands (Planned)
 
 ```bash
+# Planned commands - not yet available
 /terminal autoanalysis run        # Run analysis
 /terminal autoanalysis status     # Check analysis status
 /terminal autoanalysis report     # Get detailed report
@@ -480,6 +483,10 @@ These commands are part of the automation suite.
 ### Auto Fix Commands
 
 ```bash
+# Currently available - basic fixes
+/terminal fix                     # Apply basic automated fixes
+
+# Planned advanced commands - not yet available
 /terminal autofix apply           # Apply all safe fixes
 /terminal autofix suggest         # Suggest available fixes
 /terminal autofix status          # Check fix status
@@ -565,13 +572,13 @@ The provided arguments are invalid.
 
 ## Rate Limits
 
-To ensure fair usage:
+To ensure fair usage (limits to be finalized):
 
-- **Free Tier:** 100 commands/month
-- **Pro Tier:** 1,000 commands/month
-- **Enterprise Tier:** Unlimited
+- **Free Tier:** Usage limits to be determined
+- **Pro Tier:** Enhanced limits for paying customers
+- **Enterprise Tier:** Custom limits based on agreement
 
-Rate limit headers included in responses.
+Rate limit details will be confirmed in the final Marketplace listing.
 
 ## Best Practices
 

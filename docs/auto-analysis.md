@@ -1,10 +1,12 @@
 # Auto Analysis – Intelligent Code Analysis and Insights
 
+> **⚠️ PLANNED FEATURE**: Auto Analysis is a planned feature for future releases. The commands and functionality described in this document are not yet available in the current version of Terminal. This documentation serves as a design specification and roadmap.
+
 ## Overview
 
-Auto Analysis is Terminal's comprehensive code analysis feature powered by SmartBrain AI. It provides deep insights into code quality, security vulnerabilities, performance bottlenecks, and architectural patterns, helping teams maintain high-quality codebases.
+Auto Analysis is Terminal's planned comprehensive code analysis feature powered by SmartBrain AI. It will provide deep insights into code quality, security vulnerabilities, performance bottlenecks, and architectural patterns, helping teams maintain high-quality codebases.
 
-## Key Features
+## Key Features (Planned)
 
 ### 🔍 Multi-Dimensional Analysis
 Comprehensive code inspection:
@@ -36,13 +38,15 @@ Optimized for developer productivity:
 - Smart caching
 - Instant feedback
 
-## Usage
+## Usage (Planned)
 
 ### Run Analysis
 
-Execute comprehensive code analysis:
+When available, execute comprehensive code analysis:
 
 ```bash
+# Planned commands - not yet available
+
 # Analyze entire PR
 /terminal autoanalysis run
 

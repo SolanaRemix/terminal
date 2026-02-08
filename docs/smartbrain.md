@@ -118,12 +118,12 @@ SmartBrain provides structured analysis:
 
 **Focus**: Establish foundation for automation
 
-### v0.2 - AI-Assisted Features (In Development)
+### AI-Assisted Features (Planned for v0.2)
 **Status**: 🚧 In Progress
 
-**New Commands:**
+**Planned Commands (not yet available):**
 - `/terminal review` - AI code review
-- `/terminal fix` - AI-powered fixes
+- `/terminal fix` - AI-powered fixes (basic version available)
 - `/terminal suggest` - Improvement suggestions
 
 **SmartBrain Features:**
@@ -199,13 +199,14 @@ Get contextual improvement suggestions:
 - Testing strategies
 - Documentation gaps
 
-## Configuration
+## Configuration (Planned)
 
-### Enable SmartBrain
+### Enable SmartBrain (Future)
 
-Add to your repository's `.terminal.yml`:
+The following configuration format is planned for future releases via a `.terminal.yml` file:
 
 ```yaml
+# Planned configuration format - not yet implemented
 smartbrain:
   enabled: true
   features:
@@ -309,11 +310,13 @@ jobs:
 
 ## Training and Customization
 
-### Custom Models
+### Training and Customization (Planned)
 
-Train SmartBrain on your codebase:
+Train SmartBrain on your codebase (future feature):
 
 ```bash
+# Planned commands - not yet available
+
 # Analyze your patterns
 /terminal SmartBrain train
 
@@ -324,11 +327,13 @@ Train SmartBrain on your codebase:
 /terminal SmartBrain train --dataset ./training-data
 ```
 
-### Feedback Loop
+### Feedback Loop (Planned)
 
-Improve SmartBrain through feedback:
+Improve SmartBrain through feedback (future feature):
 
 ```bash
+# Planned commands - not yet available
+
 # Mark suggestion as helpful
 /terminal SmartBrain feedback --helpful --id suggestion-123
 
@@ -397,11 +402,15 @@ SmartBrain is designed for efficiency:
 - Confidence scoring
 - Better handling of legacy code
 
-## Troubleshooting
+## Troubleshooting (Planned)
 
-### SmartBrain Not Responding
+### SmartBrain Not Responding (Future)
+
+The following troubleshooting commands are planned for future releases:
 
 ```bash
+# Planned commands - not yet available
+
 # Check SmartBrain status
 /terminal SmartBrain status
 

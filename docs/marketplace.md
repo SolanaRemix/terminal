@@ -82,30 +82,31 @@ Perfect for personal projects and small teams.
 - Community support
 
 **Limits:**
-- Up to 100 command executions/month
-- Public repositories only
+- Usage limits to be determined for final Marketplace listing
 
-### Pro Tier - $9/month per user
+### Pro Tier
 For professional developers and small teams.
 
-**Everything in Free, plus:**
+**Pricing and entitlements are being finalized and may change.**
+
+Planned to include:
 - Automation commands (fix, merge, tag, deploy)
 - Private repository support
 - Advanced security features
 - Priority support
-- 1,000 command executions/month
 
-### Enterprise Tier - Custom Pricing
+### Enterprise Tier
 For organizations requiring advanced features.
 
-**Everything in Pro, plus:**
+**Pricing and entitlements are being finalized.**
+
+Planned to include:
 - CyberAi ecosystem commands
 - SmartBrain AI integration
 - Multi-agent orchestration
 - Custom command development
 - Dedicated support
 - SLA guarantees
-- Unlimited executions
 - Self-hosted option
 
 **Contact:** enterprise@cyberai.dev
@@ -119,7 +120,7 @@ For organizations requiring advanced features.
 
 ## Support
 
-- 📖 **Documentation**: [docs.cyberai.dev](https://solanaremix.github.io/terminal/)
+- 📖 **Documentation**: [cyberai.network](https://cyberai.network)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/SolanaRemix/terminal/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/SolanaRemix/terminal/discussions)
 - 📧 **Email**: support@cyberai.dev
@@ -131,16 +132,13 @@ For organizations requiring advanced features.
 - **Open Source**: Full source code available for audit
 - **SOC 2 Compliant**: Enterprise tier includes compliance certifications
 
-## Reviews
+## Design Goals
 
-> "Terminal has transformed how we manage our repositories. The automation saves us hours every week."
-> — Engineering Team Lead, Fortune 500 Tech Company
-
-> "Finally, a tool that brings real terminal power to GitHub PRs. Love the command-line interface."
-> — Open Source Maintainer, 50K+ stars project
-
-> "The SmartBrain integration is incredible. Automated fixes that actually work."
-> — DevOps Engineer, SaaS Startup
+CyberAi Terminal is designed to:
+- Help teams automate routine repository management tasks directly from pull requests
+- Provide a familiar terminal-style interface within GitHub for power users
+- Integrate with SmartBrain to support automated fixes where appropriate
+- Enable secure, efficient workflow automation without context switching
 
 ## Screenshots
 

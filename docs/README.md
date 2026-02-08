@@ -89,7 +89,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for detailed guidelines.
 
 ## 📄 License
 
-Documentation is licensed under [MIT License](../LICENSE), same as the project.
+Documentation is licensed under the [Apache License 2.0](../LICENSE), same as the project.
 
 ---
 

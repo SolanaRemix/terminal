@@ -1,10 +1,12 @@
 # Auto Test – Automated Testing and Validation
 
+> **⚠️ PLANNED FEATURE**: Auto Test is a planned feature for future releases. The commands and functionality described in this document are not yet available in the current version of Terminal. This documentation serves as a design specification and roadmap.
+
 ## Overview
 
-Auto Test is Terminal's intelligent automated testing feature that continuously validates code changes, generates test cases, and ensures code quality. It integrates seamlessly with your existing test infrastructure while providing AI-powered enhancements through SmartBrain.
+Auto Test is Terminal's planned intelligent automated testing feature that will continuously validate code changes, generate test cases, and ensure code quality. It will integrate seamlessly with your existing test infrastructure while providing AI-powered enhancements through SmartBrain.
 
-## Key Features
+## Key Features (Planned)
 
 ### 🧪 Automated Test Execution
 Run tests automatically on every change:
@@ -34,21 +36,24 @@ Run only relevant tests:
 - Skip unchanged test suites
 - Optimize CI/CD time
 
-## Usage
+## Usage (Planned)
 
 ### Enable Auto Test
 
-Activate automated testing:
+When available, activate automated testing:
 
 ```bash
+# Planned command - not yet available
 /terminal autotest enable
 ```
 
 ### Run Tests on Demand
 
-Execute tests manually:
+Execute tests manually (planned):
 
 ```bash
+# Planned commands - not yet available
+
 # Run all tests
 /terminal autotest run
 
